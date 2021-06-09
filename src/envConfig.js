@@ -1,12 +1,12 @@
 
 const envConfig = { 
     production: {
-        endpoint: 'https://',
-        port: 3000
+        endpoint: 'https://pokeapi.co/api/v2/pokemon',
+        limit: 10
     },
     development: {
-        endpoint: '',
-        port: 3000
+        endpoint: 'https://pokeapi.co/api/v2/pokemon',
+        limit: 10
     }
 };
 
